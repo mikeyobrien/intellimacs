@@ -7,8 +7,8 @@ nnoremap <leader>gG    :action ActivateVersionControlToolWindow<CR>
 vnoremap <leader>gG    :action ActivateVersionControlToolWindow<CR>
 
 " Select a VCS operation
-nnoremap <leader>gg    :action Vcs.QuickListPopupAction<CR>
-vnoremap <leader>gg    :action Vcs.QuickListPopupAction<CR>
+nnoremap <leader>gg    :action Tool_External Tools_Magit<CR>
+vnoremap <leader>gg    :action Tool_External Tools_Magit<CR>
 
 " Vcs push (git push)"
 nnoremap <leader>gp    :action Vcs.Push<cr>
